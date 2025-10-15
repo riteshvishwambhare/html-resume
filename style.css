@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.own {
+    text-align: center;
+    padding: 20px;
+    background-color: #e8f0fe;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+.own .name {
+    font-size: 2em;
+    color: #1a74ea;
+    margin-bottom: 10px;
+}
+.own .contact {
+    font-size: 0.9em;
+    color: #555;
+}
+.own a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #1b73e7;
+    font-weight: 500;
+}
+
+h3{
+    color: blue;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #1a73e8;
+    display: inline-block;
+    padding-bottom: 3px;
+}
+body{
+   background-color: #f7f9fc;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-botatom: 20px;
+    background-color: white;
+}
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th{
+    background-color: rgb(84, 84, 225);
+}
+
+form{
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+form label{
+    display: block;
+    margin:  10px 0px 5px;
+    font-weight: 500;
+}
+form input {
+    width: 100%;
+    padding:  8px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+ul{
+    list-style-type:square;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+ul li{
+    margin-bottom: 5px;
+}
+
+a{
+    color: #1a73e8;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+@media(max-width: 768px){
+    body{
+        padding: 10px;
+    }
+    .own .name{
+        font-size: 1.5rem;
+    }
+
+    table th , table td{
+        padding: 8px;
+    }
+}
