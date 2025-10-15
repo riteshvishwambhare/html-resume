@@ -45,7 +45,7 @@ body{
 table{
     width: 100%;
     border-collapse: collapse;
-    margin-botatom: 20px;
+    margin-bottom: 20px;
     background-color: white;
 }
 table th, table td {
